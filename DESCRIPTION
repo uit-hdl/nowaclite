@@ -1,0 +1,17 @@
+Package: nowaclite
+Type: Package
+Title: Light version of Norwegian Women and Cancer R Package. Does not include data from NOWAC
+Version: 1.0
+Authors@R:
+  person("Bjorn", "Fjukstad", email = "bjorn@cs.uit.no", role = c("aut", "cre"))
+  person("Einar", "Holsbo", email = "einar@cs.uit.no", role = c("aut", "cre"))
+Maintainer: Nikita Shvetsov <nikita.shvetsov@uit.no>
+Description: Package for analysing data from the NOWAC study
+Depends:
+  R (>= 3.1.2)
+License: MIT + file LICENCE
+RoxygenNote: 6.1.1
+Roxygen: list(markdown = TRUE)
+VignetteBuilder: knitr
+Encoding: UTF-8
+LazyData: true
