@@ -6,12 +6,12 @@ Installing the package using command line tools, e.g. the shell in RStudio.
 
 ```
 require(devtools)
-install_github('nsh23/nowaclite')
+install_github('uit-bdps/nowaclite')
 ```
 
 Using the package:
 - Load the package `library(nowaclite)`
-- type `?nowaclite` to get more information about available functions
+- type `?nowaclite` to get more information about the package
 
 # Data
 We use git submodules to keep track of data (in `data/` and `data-raw`).
