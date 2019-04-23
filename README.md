@@ -1,5 +1,5 @@
 # NOWAC Lite
-This is the light version of NOWAC R Package. Here you'll find only basic functions and general information about the package.
+This is the light version of NOWAC R Package. Here you'll find only package structure, basic functions, and general information about the package. The version that is populated with data and documentation from the NOWAC study is not publicly available, but the NOWAC team members can access it here: [https://ice-git.cs.uit.no/nowac/nowac](https://ice-git.cs.uit.no/nowac/nowac).
 
 # Download, installation and usage
 Installing the package using command line tools, e.g. the shell in RStudio.
@@ -34,3 +34,7 @@ Note that the contents of the data and data-raw is not publicly available, as we
 - Source code and documentation must be written in english.
 - We follow [Hadley Wickham's R package guide](http://adv-r.had.co.nz).
 - Datasets generated with our pipeline/r package must be complemented with an R script or R markdown file describing how the dataset was created.
+
+# Contributions
+
+The following have contributed to the NOWAC R package: Bjørn Fjukstad, Nikita Shvetsov, Therese H. Nøst, Einar Holsbø, Knut Hansen, Eiliv Lund, Lars Ailo Bongo
