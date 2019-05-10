@@ -15,9 +15,7 @@ Using the package:
 
 # Data
 We use git submodules to keep track of data (in `data/` and `data-raw`).
-`data-raw` contains the raw-est form of a datasets we have managed to find. In
-NOWAC (almost) all biological datasets have been generated at NTNU, while
-questionnaire data are stored on a in-house server. For the biological datasets we have put
+`data-raw` contains the raw-est form of a datasets we have managed to find. For the biological datasets we have put
 the raw output from the machines in the `data-raw` repository, while
 analysis-ready `.RData` files are put in the `data` repository.
 
