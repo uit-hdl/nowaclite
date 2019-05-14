@@ -1,0 +1,31 @@
+---
+title: "SOP data preparation for pippeline"
+output: html_notebook
+---
+        
+Using data from https://dataverse.no/dataset.xhtml?persistentId=doi:10.18710/FGVLKS&version=1.0  
+
+1. Load SOP data from downloaded data
+```{r}
+load("sop_data.rda")
+```
+
+2. Load controls and remove row count
+```{r}
+data_ge_controls <- read.csv('control_data.csv', check.names = FALSE)
+data_ge_controls[, 1] <- NULL
+```
+
+3. Add group information to lab_info table and rename it
+```{r}
+lab_info$group <- group
+data_ge_samplesheet <- lab_info
+```
+
+4. Rename lumi object and save objects in .rda file
+```{r}
+data_ge_lobj <- gene_expression
+save(data_ge_lobj, data_ge_controls, data_ge_samplesheet, file='data_ge.rda')
+```
+
+5. Place to 'data/' folder in your package (nowaclite) and reinstall it
